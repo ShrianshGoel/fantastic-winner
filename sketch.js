@@ -10,6 +10,7 @@ var gameState=0
 var data
 var fire
 var legend,girl
+var curso2r
 var ch1,ch;
 var fo
     var info,info1,info2,info3
@@ -46,6 +47,7 @@ function preload(){
   logo=loadImage("IMG_20210928_154050.jpg")
  c4=loadAnimation("c4.png")
   b3=loadAnimation("https://c.tenor.com/o23PLsTxPLoAAAAd/wallpaper.gif")
+  curso2r=loadImage("https://github.com/ShrianshGoel/reimagined-octo-goggles/blob/main/toppng.com-this-free-icons-png-design-of-kunai-2-398x1967.png?raw=true")
   b4=loadAnimation("https://shrianshgoel.github.io/solid-octo-palm-tree/smile_loader_by_gleb.gif");
   fire=loadFont("https://assets.editor.p5js.org/5fe6cd350045980020080300/8ee4d571-40e4-4898-8a5f-712403e1e7b9.ttf")
 }
@@ -191,7 +193,7 @@ function draw() {
 
 
    sound.volume = slider.value()
-    
+    cursor('https://github.com/ShrianshGoel/reimagined-octo-goggles/blob/main/toppng.com-this-free-icons-png-design-of-kunai-2-398x1967.png?raw=true')
 
   
   if(cha>3){
