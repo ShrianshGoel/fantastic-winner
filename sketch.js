@@ -193,7 +193,7 @@ function draw() {
 
 
    sound.volume = slider.value()
-    cursor('https://github.com/ShrianshGoel/reimagined-octo-goggles/blob/main/toppng.com-this-free-icons-png-design-of-kunai-2-398x1967.png?raw=true')
+    cursor("https://github.com/ShrianshGoel/reimagined-octo-goggles/blob/main/toppng.com-this-free-icons-png-design-of-kunai-2-398x1967.png?raw=true")
 
   
   if(cha>3){
